@@ -1,0 +1,77 @@
+#name-form,
+#mail-form{
+    height: 45px;
+    background: transparent;
+    color: white;
+    border-style: none;
+    padding-right: 150px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 28px;
+}
+
+#textarea-form{
+    background: transparent;
+    color: white;
+    border-style: none;
+    padding-right: 150px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 28px;
+}
+
+#name-form:focus,
+#mail-form:focus,
+#textarea-form:focus{
+
+    border-bottom: 1px solid green;
+}
+#name-form::placeholder,
+#mail-form::placeholder,
+#textarea-form::placeholder{
+    color: white;
+    font-size: 18px;
+
+}
+
+#btn-form{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 2px;
+    margin-left: 225px;
+    border: none;
+}
+#btn-form:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+
+.text-right{
+    color: white;
+    width: 400px;
+    font-weight: 200;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+.mails a{
+    text-decoration: none;
+    color: white;
+}
+.mails{
+    padding-top: 25px;
+}
+
+.form-left{
+    height: 500px;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+#content4{
+
+    margin-left: 300px;
+    margin-top: 140px;
+}

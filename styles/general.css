@@ -1,0 +1,43 @@
+body {
+    background-image: url('../img/tm-astro-bg.jpg');
+   
+    
+    background-size: cover;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+  display: none;
+}
+#content1:target ~ .content,
+#content2:target ~ .content,
+#content3:target ~ .content,
+#content4:target ~ .content {
+  display: none;
+}
+.content:target {
+  display: block;
+}
+/* Ensure content1 is visible by default */
+body:not(:has(:target)) #content1 {
+  display: block;
+}

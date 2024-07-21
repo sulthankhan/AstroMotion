@@ -1,0 +1,13 @@
+.img-content2{
+
+    
+    width: 180px;
+    margin-left: 20px;
+}
+.content2-img-div{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 170px;
+}
